@@ -2,7 +2,7 @@ const container=document.getElementById("container")
 const producttitle=document.getElementById("titles")
 const final=document.getElementById("final")
 
-   fetch('https://server-20s1.onrender.com')
+   fetch('https://server-20s1.onrender.com/products')
     .then(res => res.json())
     .then(products => generateUI(products))
 
